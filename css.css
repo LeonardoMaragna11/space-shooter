@@ -1,23 +1,35 @@
-body{
+body {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 0;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: sans-serif;
+    background-color: cornflowerblue;
 }
-#main-play-game{
+
+#main-play-area {
     background-color: black;
+    /* background-image: url(img/space.png); */
     height: 600px;
     width: 600px;
 }
-.player-shooter{
+.player-shooter {
     position: relative;
-    width: 100px;
-    height: 100px;
+    height: 60px;
+    width: 70px;
     left: 20px;
-    top: 250px;
-    transition: top 0.2s;
+    top: 250px
+}
+.laser {
+    position: relative;
+    width: 40px;
+    height: 30px;
+}
+.alien{
+    width: 60px;
+    height: 60px;
+    position: relative;
 }
